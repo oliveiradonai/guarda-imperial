@@ -23,6 +23,10 @@ body{
     width: 50%;
 }
 
+.left .logo{
+    width: 500px;
+}
+
 .left .input-email{
     font-size: 0.9rem;
     height: 50px;
@@ -58,6 +62,7 @@ body{
 }
 
 .left .registry{
+    font-size: 1rem;
     color: rgb(165, 161, 161);
     width: 500px;
     margin-bottom: 150px;
@@ -111,6 +116,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;  
+    justify-content: space-evenly;
     width: -webkit-fill-available;
 }
 
@@ -121,6 +127,6 @@ body{
 .bottom .right span a{
     color: #00d75b;
     text-decoration: none;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
