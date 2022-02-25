@@ -118,8 +118,9 @@ body{
     color: rgb(165, 161, 161);
 }
 
-.bottom .right span{
+.bottom .right span a{
     color: #00d75b;
+    text-decoration: none;
     margin-right: 10px;
 }
 
