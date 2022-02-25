@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.left .input-email{
+    font-size: 0.9rem;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding-left: 2em;
+    width: 500px;
+    margin-bottom: 1.5rem;
+}
+
+.left .input-email:focus-visible{
+    outline: none;
+}
+
+.left .button{
+    height: 50px;
+    border-radius: 10px;
+    width: 530px;
+    border: none;
+    color: #ffff;
+    background-color: #00d75b;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
+}
+
+.left .button:hover{
+    background-color: #029c42;
+}
+
+.left .button:focus-visible{
+    outline: none;
+}
+
+.left .registry{
+    color: rgb(165, 161, 161);
+    width: 500px;
+    margin-bottom: 150px;
+}
+
+.title{
+    width: 500px;
+    margin-bottom: 3rem;
+    margin-top: 100px;
+}
+
+.title span{
+    color: #00d75b;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right img{
+    position:relative;
+    z-index:-1;
+    display:block;
+}
+
+.background{
+    display: flex;
+    background: linear-gradient(0deg ,#111 0%,transparent 100%);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: inherit;
+}
+
+.bottom .left{
+    display: flex;
+    align-items: start;
+}
+
+.bottom .right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    width: -webkit-fill-available;
+}
+
+.bottom .left span{
+    color: rgb(165, 161, 161);
+}
+
+.bottom .right span{
+    color: #00d75b;
+    margin-right: 10px;
+}
+
